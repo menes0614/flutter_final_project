@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_final_project/view/login_page.dart';
 import 'package:flutter_final_project/view/page1.dart';
 
 import 'firebase_options.dart';
@@ -66,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text("Ana sayfaya git"),
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => LoginIslemleri()));
               },
             ),
           ],
